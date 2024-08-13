@@ -8,6 +8,7 @@ void main() {
     MaterialApp(
       theme: _buildTheme(Brightness.dark),
       home: const Scaffold(
+        backgroundColor: Color.fromRGBO(13, 14, 26, 1),
         body: MainScreen(),
       ),
     ),
